@@ -18,7 +18,7 @@ def create_database():
         else:
             print("Failed to connect to the MySQL server.")
 
-    except Error as e:
+    except mysql.connector.Error as e:
         print(f"Error occurred: {e}")
 
     finally:
