@@ -1,7 +1,7 @@
 USE alx_book_store;
 USE Customers;
 
-INSERT
+INSERT INTO customers
     customer_id = 1,
     customer_name = "Cole Baidoo",
     email = cbaidoo@sandtech.com,
